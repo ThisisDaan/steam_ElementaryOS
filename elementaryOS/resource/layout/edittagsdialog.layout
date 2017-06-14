@@ -1,0 +1,27 @@
+"resource/layout/edittagsdialog.layout" {
+	layout {
+		region {
+			name=buttons
+			align=bottom
+			width=max
+			height=58
+		}
+
+		place {
+			control=OKButton,CancelButton
+			region=buttons
+			align=right
+			width=92
+			height=34
+			margin-top=12
+			margin-right=11
+			spacing=12
+		}
+				// Elementary OS Tweaks
+		place [$LINUX] { control="frame_title"  visible=0 x=0 y=0 width=max height=0}
+		place [$LINUX] { control="MenuBar" align=right margin-right=0 height=24 margin-top=25 }
+		place [$LINUX] { control="frame_maximize" align=right margin-top=10 margin-right=4 spacing=-5 }
+		place [$LINUX] { control="frame_close" align=left margin-top=10 margin-left=4 spacing=-7 }
+		place [$LINUX] { control="frame_minimize" visible=0 margin-left=-99999}
+	}
+}
