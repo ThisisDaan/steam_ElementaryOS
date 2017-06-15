@@ -863,6 +863,7 @@
 			image="graphics/win32_win_min"
 			inset="0 0 4 0"
 			image="graphics/osx_win_dis"[$OSX]
+			image="graphics/linux_win_min" [$LINUX]
 		}
     
     FrameMinimizeButton:hover
@@ -872,6 +873,7 @@
 			inset="0 0 4 0"
 			image="graphics/win32_win_min_hover"
 			image="graphics/osx_min_hov" [$OSX]
+			image="graphics/linux_win_min_hover" [$LINUX]
 		}
 		
 		FrameMinimizeButton:framefocus [$OSX]
@@ -896,6 +898,7 @@
 			inset="0 0 4 0"
 			image="graphics/win32_win_max"
 			image="graphics/osx_win_dis" [$OSX]
+			image="graphics/linux_win_max" [$LINUX]
 		}
 
 		FrameMaximizeButton:hover
@@ -905,6 +908,7 @@
 			bgcolor="none"
 			image="graphics/win32_win_max_hover"
 			image="graphics/osx_max_hov" [$OSX]
+			image="graphics/linux_win_max_hover" [$LINUX]
 		}
 
 		FrameMaximizeButton:framefocus
@@ -914,6 +918,7 @@
 			bgcolor="none"
 			image="graphics/win32_win_max"
 			image="graphics/osx_max_def" [$OSX]
+			image="graphics/linux_win_max" [$LINUX]
 		}
 
 		FrameMaximizeButton:framefocus:hover
@@ -923,6 +928,7 @@
 			bgcolor="none"
 			image="graphics/win32_win_max_hover"
 			image="graphics/osx_max_hov" [$OSX]
+			image="graphics/linux_win_max_hover" [$LINUX]
 		}
 
 		FrameMaximizeButton:active
@@ -932,6 +938,7 @@
 			bgcolor="none"
 			image="graphics/win32_win_max_hover"
 			image="graphics/osx_max_down" [$OSX]
+			image="graphics/linux_win_max_hover" [$LINUX]
 		}
 
 		// these are for when the maximize button becomes the restore button
@@ -941,6 +948,7 @@
 			inset="0 0 4 0"
 			image="graphics/win32_win_restore"
 			image="graphics/osx_win_dis" [$OSX]
+			image="graphics/linux_win_restore" [$LINUX]
 		}
 
 		FrameRestoreButton:hover
@@ -950,6 +958,7 @@
 			bgcolor="none"
 			image="graphics/win32_win_restore_hover"
 			image="graphics/osx_max_hov" [$OSX]
+			image="graphics/linux_win_restore_hover" [$LINUX]
 		}
 
 		FrameRestoreButton:framefocus
@@ -958,7 +967,8 @@
 			inset="0 0 4 0"
 			bgcolor="none"
 			image="graphics/win32_win_restore"
-	    		image="graphics/osx_max_def" [$OSX]
+	    	image="graphics/osx_max_def" [$OSX]
+			image="graphics/linux_win_restore" [$LINUX]
 		}
 
 		FrameRestoreButton:framefocus:hover
@@ -968,6 +978,7 @@
 			bgcolor="none"
 			image="graphics/win32_win_restore_hover"
 			image="graphics/osx_max_hov" [$OSX]
+			image="graphics/linux_win_restore_hover" [$LINUX]
 		}
 
 		FrameRestoreButton:active
@@ -977,6 +988,7 @@
 			bgcolor="none"
 			image="graphics/win32_win_restore_hover"
 			image="graphics/osx_max_down" [$OSX]
+			image="graphics/linux_win_restore_hover" [$LINUX]
 		}
 
 		FrameCloseButton
@@ -985,6 +997,7 @@
 			inset="0 0 4 0"
 			image="graphics/win32_win_close"
 			image="graphics/osx_win_dis" [$OSX]
+			image="graphics/linux_win_close" [$LINUX]
 		}
 
 		FrameCloseButton:hover
@@ -993,6 +1006,7 @@
 			inset="0 0 4 0"
 			image="graphics/win32_win_close_hover"
 			image="graphics/osx_close_hov" [$OSX]
+			image="graphics/linux_win_close_hover" [$LINUX]
 		}
     
     		FrameCloseButton:framefocus [$OSX]
@@ -1025,6 +1039,7 @@
 			bgcolor="none"
 			image="graphics/win32_win_close_disabled" 
 			image="graphics/osx_win_dis" [$OSX]
+			image="graphics/linux_win_close_disabled" [$LINUX]
 		}
 				
 	}
